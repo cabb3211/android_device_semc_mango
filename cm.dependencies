@@ -1,6 +1,34 @@
 [
-  {
+	{
     "repository": "android_hardware_sony_DASH",
     "target_path": "hardware/somc/dash"
-  }
+	},
+	{
+        "account":      "TheMuppets",
+        "repository":   "proprietary_vendor_semc",
+        "target_path":  "vendor/semc",
+        "revision":     "jellybean"
+    },
+    {
+        "account":      "PAC-man",
+        "repository":   "android_device_semc_msm7x30-common",
+        "target_path":  "device/semc/msm7x30-common"
+	},
+	{
+        "account":      "PAC-man",
+        "repository":   "android_device_semc_mogami-common",
+        "target_path":  "device/semc/mogami-common"
+	},
+	{
+        "account":      "PAC-man",
+        "repository":   "android_device_semc_mango",
+        "target_path":  "device/semc/mango"
+	},
+	{
+        "account":      "PAC-man",
+        "repository":   "semc-kernel-msm7x30",
+        "target_path":  "kernel/semc/msm7x30",
+        "branch":       "jellybean"
+	}
 ]
+
