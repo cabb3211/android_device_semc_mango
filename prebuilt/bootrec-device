@@ -38,7 +38,7 @@ echo '255' > /sys/class/leds/button-backlight/brightness
 
 # trigger vibrator
 echo '200' > /sys/class/timed_output/vibrator/enable
-cat /dev/input/event1 > /dev/keycheck&
+cat /dev/input/event2 > /dev/keycheck&
 sleep 3
 # trigger LED off
 echo '0' > /sys/class/leds/blue/brightness
